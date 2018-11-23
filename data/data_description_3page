@@ -1,27 +1,27 @@
-KitchenQual: Kitchen quality
+KitchenQual: Kitchen quality 부엌 상태
 
-       Ex   Excellent
-       Gd   Good
-       TA   Typical/Average
-       Fa   Fair
-       Po   Poor
+       Ex   Excellent 아주좋음
+       Gd   Good 좋음
+       TA   Typical/Average 평범
+       Fa   Fair 나쁘지않음
+       Po   Poor 나쁨
           
 TotRmsAbvGrd: Total rooms above grade (does not include bathrooms)
 
-Functional: Home functionality (Assume typical unless deductions are warranted)
+Functional: Home functionality (Assume typical unless deductions are warranted) 집 기능(공제가 보장되지 않는 한 일반적인 가정)
 
-       Typ   Typical Functionality
-       Min1   Minor Deductions 1
-       Min2   Minor Deductions 2
-       Mod   Moderate Deductions
-       Maj1   Major Deductions 1
-       Maj2   Major Deductions 2
-       Sev   Severely Damaged
-       Sal   Salvage only
+       Typ   Typical Functionality 일반적 기능
+       Min1   Minor Deductions 1 미성년자 공제 1
+       Min2   Minor Deductions 2 미성년자 공제 2
+       Mod   Moderate Deductions 평균 공제
+       Maj1   Major Deductions 1 주요 공제 1
+       Maj2   Major Deductions 2 주요 공제 2
+       Sev   Severely Damaged 심각하게 손상됨
+       Sal   Salvage only 구조만
       
 Fireplaces: Number of fireplaces
 
-FireplaceQu: Fireplace quality
+FireplaceQu: Fireplace quality 소방 능력
 
        Ex   Excellent - Exceptional Masonry Fireplace
        Gd   Good - Masonry Fireplace in main level
