@@ -1,4 +1,6 @@
-RoofMatl: Roof material
+# 준형 담당
+
+RoofMatl: Roof material 지붕 재질
 
        ClyTile   Clay or Tile
        CompShg   Standard (Composite) Shingle
@@ -9,7 +11,7 @@ RoofMatl: Roof material
        WdShake   Wood Shakes
        WdShngl   Wood Shingles
       
-Exterior1st: Exterior covering on house
+Exterior1st: Exterior covering on house 외장재
 
        AsbShng   Asbestos Shingles
        AsphShn   Asphalt Shingles
@@ -29,7 +31,7 @@ Exterior1st: Exterior covering on house
        Wd Sdng   Wood Siding
        WdShing   Wood Shingles
    
-Exterior2nd: Exterior covering on house (if more than one material)
+Exterior2nd: Exterior covering on house (if more than one material) 외장재2
 
        AsbShng   Asbestos Shingles
        AsphShn   Asphalt Shingles
@@ -49,7 +51,7 @@ Exterior2nd: Exterior covering on house (if more than one material)
        Wd Sdng   Wood Siding
        WdShing   Wood Shingles
    
-MasVnrType: Masonry veneer type
+MasVnrType: Masonry veneer type 벽돌장식 타입
 
        BrkCmn   Brick Common
        BrkFace   Brick Face
@@ -57,9 +59,9 @@ MasVnrType: Masonry veneer type
        None   None
        Stone   Stone
    
-MasVnrArea: Masonry veneer area in square feet
+MasVnrArea: Masonry veneer area in square feet 벽돌장식 면적
 
-ExterQual: Evaluates the quality of the material on the exterior 
+ExterQual: Evaluates the quality of the material on the exterior 외장재 재료의 가치 평가
       
        Ex   Excellent
        Gd   Good
@@ -67,7 +69,7 @@ ExterQual: Evaluates the quality of the material on the exterior
        Fa   Fair
        Po   Poor
       
-ExterCond: Evaluates the present condition of the material on the exterior
+ExterCond: Evaluates the present condition of the material on the exterior 외장재 상태 평가
       
        Ex   Excellent
        Gd   Good
@@ -75,7 +77,7 @@ ExterCond: Evaluates the present condition of the material on the exterior
        Fa   Fair
        Po   Poor
       
-Foundation: Type of foundation
+Foundation: Type of foundation 지반의 타입
       
        BrkTil   Brick & Tile
        CBlock   Cinder Block
