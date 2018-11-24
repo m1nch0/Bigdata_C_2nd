@@ -11,7 +11,7 @@ RoofMatl: Roof material 지붕 재질
        WdShake   Wood Shakes
        WdShngl   Wood Shingles
       
-Exterior1st: Exterior covering on house 외장재
+Exterior1st: Exterior covering on house 주 외장재
 
        AsbShng   Asbestos Shingles
        AsphShn   Asphalt Shingles
@@ -31,7 +31,7 @@ Exterior1st: Exterior covering on house 외장재
        Wd Sdng   Wood Siding
        WdShing   Wood Shingles
    
-Exterior2nd: Exterior covering on house (if more than one material) 외장재2
+Exterior2nd: Exterior covering on house (if more than one material) 부 외장재
 
        AsbShng   Asbestos Shingles
        AsphShn   Asphalt Shingles
