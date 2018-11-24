@@ -69,7 +69,7 @@ ExterQual: Evaluates the quality of the material on the exterior 외장재 재�
        Fa   Fair
        Po   Poor
       
-ExterCond: Evaluates the present condition of the material on the exterior 외장재 상태 평가
+ExterCond: Evaluates the present condition of the material on the exterior 외장재 상태
       
        Ex   Excellent
        Gd   Good
@@ -86,7 +86,7 @@ Foundation: Type of foundation 지반의 타입
        Stone   Stone
        Wood   Wood
       
-BsmtQual: Evaluates the height of the basement
+BsmtQual: Evaluates the height of the basement  지하층의 높이
 
        Ex   Excellent (100+ inches)   
        Gd   Good (90-99 inches)
@@ -95,7 +95,7 @@ BsmtQual: Evaluates the height of the basement
        Po   Poor (<70 inches
        NA   No Basement
       
-BsmtCond: Evaluates the general condition of the basement
+BsmtCond: Evaluates the general condition of the basement 지하층의 상태
 
        Ex   Excellent
        Gd   Good
@@ -104,7 +104,7 @@ BsmtCond: Evaluates the general condition of the basement
        Po   Poor - Severe cracking, settling, or wetness
        NA   No Basement
    
-BsmtExposure: Refers to walkout or garden level walls
+BsmtExposure: Refers to walkout or garden level walls 지하층의 개방 정도??
 
        Gd   Good Exposure
        Av   Average Exposure (split levels or foyers typically score average or above)   
@@ -112,7 +112,7 @@ BsmtExposure: Refers to walkout or garden level walls
        No   No Exposure
        NA   No Basement
    
-BsmtFinType1: Rating of basement finished area
+BsmtFinType1: Rating of basement finished area 지하층의 활용가능 공간
 
        GLQ   Good Living Quarters
        ALQ   Average Living Quarters
@@ -122,9 +122,9 @@ BsmtFinType1: Rating of basement finished area
        Unf   Unfinshed
        NA   No Basement
       
-BsmtFinSF1: Type 1 finished square feet
+BsmtFinSF1: Type 1 finished square feet 지하층 활용공간의 넓이
 
-BsmtFinType2: Rating of basement finished area (if multiple types)
+BsmtFinType2: Rating of basement finished area (if multiple types) 지하층의 활용가능 공간2(여러 공간이 있을 경우)
 
        GLQ   Good Living Quarters
        ALQ   Average Living Quarters
@@ -134,22 +134,22 @@ BsmtFinType2: Rating of basement finished area (if multiple types)
        Unf   Unfinshed
        NA   No Basement
 
-BsmtFinSF2: Type 2 finished square feet
+BsmtFinSF2: Type 2 finished square feet 지하층 활용공간2의 넓이
 
-BsmtUnfSF: Unfinished square feet of basement area
+BsmtUnfSF: Unfinished square feet of basement area 지하층의 마감되지 않은 면적
 
-TotalBsmtSF: Total square feet of basement area
+TotalBsmtSF: Total square feet of basement area 지하층 총면적
 
-Heating: Type of heating
+Heating: Type of heating 난방 타입
       
-       Floor   Floor Furnace
-       GasA   Gas forced warm air furnace
-       GasW   Gas hot water or steam heat
-       Grav   Gravity furnace   
-       OthW   Hot water or steam heat other than gas
-       Wall   Wall furnace
+       Floor   Floor Furnace                            온돌
+       GasA   Gas forced warm air furnace               가스식 온풍기
+       GasW   Gas hot water or steam heat               가스식 온수(스팀) 방열기
+       Grav   Gravity furnace                           바닥형 온풍기
+       OthW   Hot water or steam heat other than gas    비 가스식 온수(스팀) 방열기
+       Wall   Wall furnace                              벽난로
       
-HeatingQC: Heating quality and condition
+HeatingQC: Heating quality and condition  난방 퀄리티와 컨디션
 
        Ex   Excellent
        Gd   Good
@@ -157,35 +157,35 @@ HeatingQC: Heating quality and condition
        Fa   Fair
        Po   Poor
       
-CentralAir: Central air conditioning
+CentralAir: Central air conditioning  중앙 공조장치
 
        N   No
        Y   Yes
       
-Electrical: Electrical system
+Electrical: Electrical system  전기 시스템
 
-       SBrkr   Standard Circuit Breakers & Romex
-       FuseA   Fuse Box over 60 AMP and all Romex wiring (Average)   
+       SBrkr   Standard Circuit Breakers & Romex                      
+       FuseA   Fuse Box over 60 AMP and all Romex wiring (Average)    
        FuseF   60 AMP Fuse Box and mostly Romex wiring (Fair)
        FuseP   60 AMP Fuse Box and mostly knob & tube wiring (poor)
        Mix   Mixed
       
-1stFlrSF: First Floor square feet
+1stFlrSF: First Floor square feet  1층 면적
  
-2ndFlrSF: Second floor square feet
+2ndFlrSF: Second floor square feet 2층 면적
 
-LowQualFinSF: Low quality finished square feet (all floors)
+LowQualFinSF: Low quality finished square feet (all floors)    마감되지 않은 면적(전체)
 
-GrLivArea: Above grade (ground) living area square feet
+GrLivArea: Above grade (ground) living area square feet  지상 거주공간 면적
 
-BsmtFullBath: Basement full bathrooms
+BsmtFullBath: Basement full bathrooms  지하층 (욕조완비)화장실 수  
 
-BsmtHalfBath: Basement half bathrooms
+BsmtHalfBath: Basement half bathrooms   지하층 (샤워시설 없는)화장실 수  
 
-FullBath: Full bathrooms above grade
+FullBath: Full bathrooms above grade  지상층 (욕조완비)화장실 수
 
-HalfBath: Half baths above grade
+HalfBath: Half baths above grade  지상층(샤워시설 없는) 화장실 수
 
-Bedroom: Bedrooms above grade (does NOT include basement bedrooms)
+Bedroom: Bedrooms above grade (does NOT include basement bedrooms) 지상층 침실 수
 
-Kitchen: Kitchens above grade
+Kitchen: Kitchens above grade  지상층 부엌 수
