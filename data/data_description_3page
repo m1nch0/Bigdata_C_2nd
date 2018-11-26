@@ -21,75 +21,76 @@ Functional: Home functionality (Assume typical unless deductions are warranted) 
       
 Fireplaces: Number of fireplaces
 
-FireplaceQu: Fireplace quality 소방 능력
+FireplaceQu: Fireplace quality 벽난로
 
-       Ex   Excellent - Exceptional Masonry Fireplace
-       Gd   Good - Masonry Fireplace in main level
+       Ex   Excellent - Exceptional Masonry Fireplace 우수한 석조 벽난로
+       Gd   Good - Masonry Fireplace in main level 양호한 상태의 석조 벽난로
        TA   Average - Prefabricated Fireplace in main living area or Masonry Fireplace in basement
-       Fa   Fair - Prefabricated Fireplace in basement
-       Po   Poor - Ben Franklin Stove
-       NA   No Fireplace
+                      주요 생활 구역 내 조립식 벽난로나 지하 석조 벽난로
+       Fa   Fair - Prefabricated Fireplace in basement 지하 조립식 벽난로
+       Po   Poor - Ben Franklin Stove 벤프랭클린 난로(고유명사)
+       NA   No Fireplace 벽난로 없음
       
-GarageType: Garage location
+GarageType: Garage location 차고 위치
       
-       2Types   More than one type of garage
-       Attchd   Attached to home
-       Basment   Basement Garage
-       BuiltIn   Built-In (Garage part of house - typically has room above garage)
-       CarPort   Car Port
-       Detchd   Detached from home
-       NA   No Garage
+       2Types   More than one type of garage 하나 이상의 차고 보유
+       Attchd   Attached to home 집에 붙어있는 차고
+       Basment   Basement Garage 지하 차고
+       BuiltIn   Built-In (Garage part of house - typically has room above garage) 빌트인 방식 - 일반적으로 차고 위에 방이 있음
+       CarPort   Car Port 간이차고
+       Detchd   Detached from home 분리형 차고
+       NA   No Garage 차고 없음
       
-GarageYrBlt: Year garage was built
+GarageYrBlt: Year garage was built 차고 건축 연도
       
-GarageFinish: Interior finish of the garage
+GarageFinish: Interior finish of the garage 차고 인테리어 완료 여부
 
-       Fin   Finished
-       RFn   Rough Finished   
-       Unf   Unfinished
-       NA   No Garage
+       Fin   Finished 완료
+       RFn   Rough Finished 대충 완료   
+       Unf   Unfinished 미완
+       NA   No Garage 차고 없음
       
-GarageCars: Size of garage in car capacity
+GarageCars: Size of garage in car capacity 차고의 수용 가능 용향
 
-GarageArea: Size of garage in square feet
+GarageArea: Size of garage in square feet 차고 평수
 
-GarageQual: Garage quality
+GarageQual: Garage quality 차고 질
 
-       Ex   Excellent
-       Gd   Good
-       TA   Typical/Average
-       Fa   Fair
-       Po   Poor
-       NA   No Garage
+       Ex   Excellent 매우좋음
+       Gd   Good 좋음
+       TA   Typical/Average 평범함
+       Fa   Fair 나쁘지않음
+       Po   Poor 나쁨 
+       NA   No Garage 차고없음
       
-GarageCond: Garage condition
+GarageCond: Garage condition 차고 상태
 
-       Ex   Excellent
-       Gd   Good
-       TA   Typical/Average
-       Fa   Fair
-       Po   Poor
-       NA   No Garage
+       Ex   Excellent매우좋음
+       Gd   Good 좋음
+       TA   Typical/Average 평범함
+       Fa   Fair 나쁘지않음
+       Po   Poor 나쁨
+       NA   No Garage 차고없음
       
-PavedDrive: Paved driveway
+PavedDrive: Paved driveway 진입로 포장여부
 
-       Y   Paved 
-       P   Partial Pavement
-       N   Dirt/Gravel
+       Y   Paved 포장됨
+       P   Partial Pavement 부분포장
+       N   Dirt/Gravel 더러움/자갈길
       
-WoodDeckSF: Wood deck area in square feet
+WoodDeckSF: Wood deck area in square feet 나무데크 평수(집 후면에 마루처럼 달아서 쉴 수 있게 만들어 둔 곳)
 
-OpenPorchSF: Open porch area in square feet
+OpenPorchSF: Open porch area in square feet 베란다 평수
 
-EnclosedPorch: Enclosed porch area in square feet
+EnclosedPorch: Enclosed porch area in square feet 내부 현관 평수
 
-3SsnPorch: Three season porch area in square feet
+3SsnPorch: Three season porch area in square feet 외부 현관 평수
 
-ScreenPorch: Screen porch area in square feet
+ScreenPorch: Screen porch area in square feet 유리 현관 평수
 
-PoolArea: Pool area in square feet
+PoolArea: Pool area in square feet 수영장 평수
 
-PoolQC: Pool quality
+PoolQC: Pool quality 수영장 상태
       
        Ex   Excellent
        Gd   Good
@@ -97,7 +98,7 @@ PoolQC: Pool quality
        Fa   Fair
        NA   No Pool
       
-Fence: Fence quality
+Fence: Fence quality 울타리 상태
       
        GdPrv   Good Privacy
        MnPrv   Minimum Privacy
@@ -105,7 +106,7 @@ Fence: Fence quality
        MnWw   Minimum Wood/Wire
        NA   No Fence
    
-MiscFeature: Miscellaneous feature not covered in other categories
+MiscFeature: Miscellaneous feature not covered in other categories 다른 카테고리에서 다루지 않는 기타 기능
       
        Elev   Elevator
        Gar2   2nd Garage (if not described in garage section)
@@ -114,13 +115,13 @@ MiscFeature: Miscellaneous feature not covered in other categories
        TenC   Tennis Court
        NA   None
       
-MiscVal: $Value of miscellaneous feature
+MiscVal: $Value of miscellaneous feature 기타 특성의 가치
 
-MoSold: Month Sold (MM)
+MoSold: Month Sold (MM) 월간 판매량
 
-YrSold: Year Sold (YYYY)
+YrSold: Year Sold (YYYY) 연간 판매량
 
-SaleType: Type of sale
+SaleType: Type of sale 판매타입
       
        WD    Warranty Deed - Conventional
        CWD   Warranty Deed - Cash
@@ -133,7 +134,7 @@ SaleType: Type of sale
        ConLD   Contract Low Down
        Oth   Other
       
-SaleCondition: Condition of sale
+SaleCondition: Condition of sale 판매 
 
        Normal   Normal Sale
        Abnorml   Abnormal Sale -  trade, foreclosure, short sale
