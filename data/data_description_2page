@@ -157,7 +157,7 @@ HeatingQC: Heating quality and condition  난방 퀄리티와 컨디션, 서수�
        Fa   Fair
        Po   Poor
       
-CentralAir: Central air conditioning  중앙 공조장치, Y/N 형
+CentralAir: Central air conditioning  중앙 공조장치, 형
 
        N   No
        Y   Yes
