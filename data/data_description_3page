@@ -1,4 +1,4 @@
-KitchenQual: Kitchen quality 부엌 상태
+KitchenQual: Kitchen quality 부엌 상태, 서수형
 
        Ex   Excellent 아주좋음
        Gd   Good 좋음
@@ -6,7 +6,7 @@ KitchenQual: Kitchen quality 부엌 상태
        Fa   Fair 나쁘지않음
        Po   Poor 나쁨
           
-TotRmsAbvGrd: Total rooms above grade (does not include bathrooms)
+TotRmsAbvGrd: Total rooms above grade (does not include bathrooms), 수치형
 
 Functional: Home functionality (Assume typical unless deductions are warranted) 집 기능(공제가 보장되지 않는 한 일반적인 가정)
 
