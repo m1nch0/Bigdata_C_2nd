@@ -1,4 +1,4 @@
-MSSubClass: Identifies the type of dwelling involved in the sale.   
+MSSubClass: Identifies the type of dwelling involved in the sale.   판매 관련 거주 유형
 
         20   1-STORY 1946 & NEWER ALL STYLES
         30   1-STORY 1945 & OLDER
@@ -17,54 +17,54 @@ MSSubClass: Identifies the type of dwelling involved in the sale.
        180   PUD - MULTILEVEL - INCL SPLIT LEV/FOYER
        190   2 FAMILY CONVERSION - ALL STYLES AND AGES
 
-MSZoning: Identifies the general zoning classification of the sale.
+MSZoning: Identifies the general zoning classification of the sale.     판매 관련 구역 분류
       
-       A   Agriculture
-       C   Commercial
-       FV   Floating Village Residential
-       I   Industrial
-       RH   Residential High Density
-       RL   Residential Low Density
-       RP   Residential Low Density Park 
-       RM   Residential Medium Density
+       A   Agriculture                          농업
+       C   Commercial                           상업
+       FV   Floating Village Residential        수상 주거
+       I   Industrial                           산업
+       RH   Residential High Density            고밀도 주택
+       RL   Residential Low Density             저밀도 주택
+       RP   Residential Low Density Park
+       RM   Residential Medium Density          중밀도 주택
    
-LotFrontage: Linear feet of street connected to property
+LotFrontage: Linear feet of street connected to property                거리 선형 피트
 
-LotArea: Lot size in square feet
+LotArea: Lot size in square feet                                        평방 피트
 
-Street: Type of road access to property
+Street: Type of road access to property                                 도로 접근성
 
-       Grvl   Gravel   
-       Pave   Paved
+       Grvl   Gravel            비포장
+       Pave   Paved             포장
           
-Alley: Type of alley access to property
+Alley: Type of alley access to property                                 골목 접근성
 
-       Grvl   Gravel
-       Pave   Paved
-       NA    No alley access
+       Grvl   Gravel            비포장
+       Pave   Paved             포장
+       NA    No alley access    골목길 X
       
-LotShape: General shape of property
+LotShape: General shape of property                                     일반적 형태
 
-       Reg   Regular   
-       IR1   Slightly irregular
-       IR2   Moderately Irregular
-       IR3   Irregular
+       Reg   Regular                    규칙
+       IR1   Slightly irregular         약간 불규칙
+       IR2   Moderately Irregular       보통 불규칙
+       IR3   Irregular                  불규칙
        
-LandContour: Flatness of the property
+LandContour: Flatness of the property                                   평탄성
 
-       Lvl   Near Flat/Level   
-       Bnk   Banked - Quick and significant rise from street grade to building
-       HLS   Hillside - Significant slope from side to side
-       Low   Depression
+       Lvl   Near Flat/Level                                                    평면/수평
+       Bnk   Banked - Quick and significant rise from street grade to building  가파른 상승
+       HLS   Hillside - Significant slope from side to side                     상당한 경사
+       Low   Depression                                                         요면
       
-Utilities: Type of utilities available
+Utilities: Type of utilities available                                  가용 공공시설
       
-       AllPub   All public Utilities (E,G,W,& S)   
-       NoSewr   Electricity, Gas, and Water (Septic Tank)
-       NoSeWa   Electricity and Gas Only
-       ELO   Electricity only   
+       AllPub   All public Utilities (E,G,W,& S)                모든 공공시설
+       NoSewr   Electricity, Gas, and Water (Septic Tank)       전기, 가스, 수도
+       NoSeWa   Electricity and Gas Only                        전기, 가스
+       ELO   Electricity only                                   전기
    
-LotConfig: Lot configuration
+LotConfig: Lot configuration                                            대지 구성
 
        Inside   Inside lot
        Corner   Corner lot
@@ -72,13 +72,13 @@ LotConfig: Lot configuration
        FR2   Frontage on 2 sides of property
        FR3   Frontage on 3 sides of property
    
-LandSlope: Slope of property
+LandSlope: Slope of property                                            경사
       
-       Gtl   Gentle slope
-       Mod   Moderate Slope   
-       Sev   Severe Slope
+       Gtl   Gentle slope               완만한 경사
+       Mod   Moderate Slope             보통
+       Sev   Severe Slope               급 경사
    
-Neighborhood: Physical locations within Ames city limits
+Neighborhood: Physical locations within Ames city limits                물리적 위치 (지명)
 
        Blmngtn   Bloomington Heights
        Blueste   Bluestem
@@ -106,19 +106,19 @@ Neighborhood: Physical locations within Ames city limits
        Timber   Timberland
        Veenker   Veenker
          
-Condition1: Proximity to various conditions
+Condition1: Proximity to various conditions                             조건 접근성
    
-       Artery   Adjacent to arterial street
-       Feedr   Adjacent to feeder street   
+       Artery   Adjacent to arterial street                             간선 도로 인접
+       Feedr   Adjacent to feeder street                                
        Norm   Normal   
-       RRNn   Within 200' of North-South Railroad
-       RRAn   Adjacent to North-South Railroad
-       PosN   Near positive off-site feature--park, greenbelt, etc.
-       PosA   Adjacent to postive off-site feature
-       RRNe   Within 200' of East-West Railroad
-       RRAe   Adjacent to East-West Railroad
+       RRNn   Within 200' of North-South Railroad                       남북철도 200' 이내
+       RRAn   Adjacent to North-South Railroad                          남북철도 인접
+       PosN   Near positive off-site feature--park, greenbelt, etc.     공원, 녹지 등 인접
+       PosA   Adjacent to postive off-site feature                      
+       RRNe   Within 200' of East-West Railroad                         동서 철도 200' 이내
+       RRAe   Adjacent to East-West Railroad                            동서철도 인접
    
-Condition2: Proximity to various conditions (if more than one is present)
+Condition2: Proximity to various conditions (if more than one is present)       조건 접근성 (둘 이상)
       
        Artery   Adjacent to arterial street
        Feedr   Adjacent to feeder street   
@@ -130,26 +130,26 @@ Condition2: Proximity to various conditions (if more than one is present)
        RRNe   Within 200' of East-West Railroad
        RRAe   Adjacent to East-West Railroad
    
-BldgType: Type of dwelling
+BldgType: Type of dwelling                                              주거 타입
       
-       1Fam   Single-family Detached   
-       2FmCon   Two-family Conversion; originally built as one-family dwelling
+       1Fam   Single-family Detached                                            단독 주택
+       2FmCon   Two-family Conversion; originally built as one-family dwelling  2 가족 (1가족 주택)
        Duplx   Duplex
        TwnhsE   Townhouse End Unit
        TwnhsI   Townhouse Inside Unit
    
-HouseStyle: Style of dwelling
+HouseStyle: Style of dwelling                                           주거 스타일
    
-       1Story   One story
+       1Story   One story                                       1층
        1.5Fin   One and one-half story: 2nd level finished
        1.5Unf   One and one-half story: 2nd level unfinished
-       2Story   Two story
+       2Story   Two story                                       2층
        2.5Fin   Two and one-half story: 2nd level finished
        2.5Unf   Two and one-half story: 2nd level unfinished
-       SFoyer   Split Foyer
-       SLvl   Split Level
+       SFoyer   Split Foyer                                     분리 현관
+       SLvl   Split Level                                       분리층 (half floor)
    
-OverallQual: Rates the overall material and finish of the house
+OverallQual: Rates the overall material and finish of the house         집 재료 및 마감비율
 
        10   Very Excellent
        9   Excellent
@@ -162,7 +162,7 @@ OverallQual: Rates the overall material and finish of the house
        2   Poor
        1   Very Poor
    
-OverallCond: Rates the overall condition of the house
+OverallCond: Rates the overall condition of the house                   집 전반적인 상태
 
        10   Very Excellent
        9   Excellent
@@ -175,15 +175,15 @@ OverallCond: Rates the overall condition of the house
        2   Poor
        1   Very Poor
       
-YearBuilt: Original construction date
+YearBuilt: Original construction date                                   원 준공일자
 
-YearRemodAdd: Remodel date (same as construction date if no remodeling or additions)
+YearRemodAdd: Remodel date (same as construction date if no remodeling or additions)    리모델링 일자 (리모델링, 추가 준공이 없다면 원 준공일자와 동일)
 
-RoofStyle: Type of roof
+RoofStyle: Type of roof                                                 지붕 타입
 
-       Flat   Flat
-       Gable   Gable
-       Gambrel   Gabrel (Barn)
-       Hip   Hip
-       Mansard   Mansard
-       Shed   Shed
+       Flat   Flat              평지붕
+       Gable   Gable            박공지붕
+       Gambrel   Gabrel (Barn)  갬브렐지붕
+       Hip   Hip                모임지붕
+       Mansard   Mansard        망사르드지붕
+       Shed   Shed              외쪽지붕
