@@ -1,4 +1,4 @@
-MSSubClass: Identifies the type of dwelling involved in the sale.   ÆÇ¸Å °ü·Ã °ÅÁÖ À¯Çü
+MSSubClass: Identifies the type of dwelling involved in the sale.   íŒë§¤ ê´€ë ¨ ê±°ì£¼ ìœ í˜•
 
         20   1-STORY 1946 & NEWER ALL STYLES
         30   1-STORY 1945 & OLDER
@@ -17,54 +17,54 @@ MSSubClass: Identifies the type of dwelling involved in the sale.   ÆÇ¸Å °ü·Ã °Å
        180   PUD - MULTILEVEL - INCL SPLIT LEV/FOYER
        190   2 FAMILY CONVERSION - ALL STYLES AND AGES
 
-MSZoning: Identifies the general zoning classification of the sale.     ÆÇ¸Å °ü·Ã ±¸¿ª ºĞ·ù
+MSZoning: Identifies the general zoning classification of the sale.     íŒë§¤ ê´€ë ¨ êµ¬ì—­ ë¶„ë¥˜
       
-       A   Agriculture                          ³ó¾÷
-       C   Commercial                           »ó¾÷
-       FV   Floating Village Residential        ¼ö»ó ÁÖ°Å
-       I   Industrial                           »ê¾÷
-       RH   Residential High Density            °í¹Ğµµ ÁÖÅÃ
-       RL   Residential Low Density             Àú¹Ğµµ ÁÖÅÃ
+       A   Agriculture                          ë†ì—…
+       C   Commercial                           ìƒì—…
+       FV   Floating Village Residential        ìˆ˜ìƒ ì£¼ê±°
+       I   Industrial                           ì‚°ì—…
+       RH   Residential High Density            ê³ ë°€ë„ ì£¼íƒ
+       RL   Residential Low Density             ì €ë°€ë„ ì£¼íƒ
        RP   Residential Low Density Park
-       RM   Residential Medium Density          Áß¹Ğµµ ÁÖÅÃ
+       RM   Residential Medium Density          ì¤‘ë°€ë„ ì£¼íƒ
    
-LotFrontage: Linear feet of street connected to property                Áı±îÁö ¿¬°áµÈ °Å¸®(street)ÀÇ ¹ßÀÚ±¹ °Å¸®
+LotFrontage: Linear feet of street connected to property                ì§‘ê¹Œì§€ ì—°ê²°ëœ ê±°ë¦¬(street)ì˜ ë°œìêµ­ ê±°ë¦¬
 
-LotArea: Lot size in square feet                                        Æò¹æ ÇÇÆ®
+LotArea: Lot size in square feet                                        í‰ë°© í”¼íŠ¸
 
-Street: Type of road access to property                                 µµ·Î Á¢±Ù¼º
+Street: Type of road access to property                                 ë„ë¡œ ì ‘ê·¼ì„±
 
-       Grvl   Gravel            ºñÆ÷Àå
-       Pave   Paved             Æ÷Àå
+       Grvl   Gravel            ë¹„í¬ì¥
+       Pave   Paved             í¬ì¥
           
-Alley: Type of alley access to property                                 °ñ¸ñ±æ Á¢±Ù¼º
+Alley: Type of alley access to property                                 ê³¨ëª©ê¸¸ ì ‘ê·¼ì„±
 
-       Grvl   Gravel            ºñÆ÷Àå
-       Pave   Paved             Æ÷Àå
-       NA    No alley access    °ñ¸ñ±æ X
+       Grvl   Gravel            ë¹„í¬ì¥
+       Pave   Paved             í¬ì¥
+       NA    No alley access    ê³¨ëª©ê¸¸ X
       
-LotShape: General shape of property                                     ÀÏ¹İÀû ÇüÅÂ
+LotShape: General shape of property                                     ì¼ë°˜ì  í˜•íƒœ
 
-       Reg   Regular                    ±ÔÄ¢
-       IR1   Slightly irregular         ¾à°£ ºÒ±ÔÄ¢
-       IR2   Moderately Irregular       º¸Åë ºÒ±ÔÄ¢
-       IR3   Irregular                  ºÒ±ÔÄ¢
+       Reg   Regular                    ê·œì¹™
+       IR1   Slightly irregular         ì•½ê°„ ë¶ˆê·œì¹™
+       IR2   Moderately Irregular       ë³´í†µ ë¶ˆê·œì¹™
+       IR3   Irregular                  ë¶ˆê·œì¹™
        
-LandContour: Flatness of the property                                   ÆòÅº¼º
+LandContour: Flatness of the property                                   í‰íƒ„ì„±
 
-       Lvl   Near Flat/Level                                                    Æò¸é/¼öÆò
-       Bnk   Banked - Quick and significant rise from street grade to building  °¡ÆÄ¸¥ »ó½Â
-       HLS   Hillside - Significant slope from side to side                     »ó´çÇÑ °æ»ç
-       Low   Depression                                                         ¿ä¸é
+       Lvl   Near Flat/Level                                                    í‰ë©´/ìˆ˜í‰
+       Bnk   Banked - Quick and significant rise from street grade to building  ê°€íŒŒë¥¸ ìƒìŠ¹
+       HLS   Hillside - Significant slope from side to side                     ìƒë‹¹í•œ ê²½ì‚¬
+       Low   Depression                                                         ìš”ë©´
       
-Utilities: Type of utilities available                                  °¡¿ë °ø°ø½Ã¼³
+Utilities: Type of utilities available                                  ê°€ìš© ê³µê³µì‹œì„¤
       
-       AllPub   All public Utilities (E,G,W,& S)                ¸ğµç °ø°ø½Ã¼³
-       NoSewr   Electricity, Gas, and Water (Septic Tank)       Àü±â, °¡½º, ¼öµµ
-       NoSeWa   Electricity and Gas Only                        Àü±â, °¡½º
-       ELO   Electricity only                                   Àü±â
+       AllPub   All public Utilities (E,G,W,& S)                ëª¨ë“  ê³µê³µì‹œì„¤
+       NoSewr   Electricity, Gas, and Water (Septic Tank)       ì „ê¸°, ê°€ìŠ¤, ìˆ˜ë„
+       NoSeWa   Electricity and Gas Only                        ì „ê¸°, ê°€ìŠ¤
+       ELO   Electricity only                                   ì „ê¸°
    
-LotConfig: Lot configuration                                            ´ëÁö ±¸¼º
+LotConfig: Lot configuration                                            ëŒ€ì§€ êµ¬ì„±
 
        Inside   Inside lot
        Corner   Corner lot
@@ -72,13 +72,13 @@ LotConfig: Lot configuration                                            ´ëÁö ±¸¼
        FR2   Frontage on 2 sides of property
        FR3   Frontage on 3 sides of property
    
-LandSlope: Slope of property                                            °æ»ç
+LandSlope: Slope of property                                            ê²½ì‚¬
       
-       Gtl   Gentle slope               ¿Ï¸¸ÇÑ °æ»ç
-       Mod   Moderate Slope             º¸Åë
-       Sev   Severe Slope               ±Ş °æ»ç
+       Gtl   Gentle slope               ì™„ë§Œí•œ ê²½ì‚¬
+       Mod   Moderate Slope             ë³´í†µ
+       Sev   Severe Slope               ê¸‰ ê²½ì‚¬
    
-Neighborhood: Physical locations within Ames city limits                ¹°¸®Àû À§Ä¡ (Áö¸í)
+Neighborhood: Physical locations within Ames city limits                ë¬¼ë¦¬ì  ìœ„ì¹˜ (ì§€ëª…)
 
        Blmngtn   Bloomington Heights
        Blueste   Bluestem
@@ -106,19 +106,19 @@ Neighborhood: Physical locations within Ames city limits                ¹°¸®Àû À
        Timber   Timberland
        Veenker   Veenker
          
-Condition1: Proximity to various conditions                             Á¶°Ç Á¢±Ù¼º
+Condition1: Proximity to various conditions                             ì¡°ê±´ ì ‘ê·¼ì„±
    
-       Artery   Adjacent to arterial street                             °£¼± µµ·Î ÀÎÁ¢
+       Artery   Adjacent to arterial street                             ê°„ì„  ë„ë¡œ ì¸ì ‘
        Feedr   Adjacent to feeder street                                
        Norm   Normal   
-       RRNn   Within 200' of North-South Railroad                       ³²ºÏÃ¶µµ 200' ÀÌ³»
-       RRAn   Adjacent to North-South Railroad                          ³²ºÏÃ¶µµ ÀÎÁ¢
-       PosN   Near positive off-site feature--park, greenbelt, etc.     °ø¿ø, ³ìÁö µî ÀÎÁ¢
+       RRNn   Within 200' of North-South Railroad                       ë‚¨ë¶ì² ë„ 200' ì´ë‚´
+       RRAn   Adjacent to North-South Railroad                          ë‚¨ë¶ì² ë„ ì¸ì ‘
+       PosN   Near positive off-site feature--park, greenbelt, etc.     ê³µì›, ë…¹ì§€ ë“± ì¸ì ‘
        PosA   Adjacent to postive off-site feature                      
-       RRNe   Within 200' of East-West Railroad                         µ¿¼­ Ã¶µµ 200' ÀÌ³»
-       RRAe   Adjacent to East-West Railroad                            µ¿¼­Ã¶µµ ÀÎÁ¢
+       RRNe   Within 200' of East-West Railroad                         ë™ì„œ ì² ë„ 200' ì´ë‚´
+       RRAe   Adjacent to East-West Railroad                            ë™ì„œì² ë„ ì¸ì ‘
    
-Condition2: Proximity to various conditions (if more than one is present)       Á¶°Ç Á¢±Ù¼º (µÑ ÀÌ»ó)
+Condition2: Proximity to various conditions (if more than one is present)       ì¡°ê±´ ì ‘ê·¼ì„± (ë‘˜ ì´ìƒ)
       
        Artery   Adjacent to arterial street
        Feedr   Adjacent to feeder street   
@@ -130,26 +130,26 @@ Condition2: Proximity to various conditions (if more than one is present)       
        RRNe   Within 200' of East-West Railroad
        RRAe   Adjacent to East-West Railroad
    
-BldgType: Type of dwelling                                              ÁÖ°Å Å¸ÀÔ
+BldgType: Type of dwelling                                              ì£¼ê±° íƒ€ì…
       
-       1Fam   Single-family Detached                                            ´Üµ¶ ÁÖÅÃ
-       2FmCon   Two-family Conversion; originally built as one-family dwelling  2 °¡Á· (1°¡Á· ÁÖÅÃ)
+       1Fam   Single-family Detached                                            ë‹¨ë… ì£¼íƒ
+       2FmCon   Two-family Conversion; originally built as one-family dwelling  2 ê°€ì¡± (1ê°€ì¡± ì£¼íƒ)
        Duplx   Duplex
        TwnhsE   Townhouse End Unit
        TwnhsI   Townhouse Inside Unit
    
-HouseStyle: Style of dwelling                                           ÁÖ°Å ½ºÅ¸ÀÏ
+HouseStyle: Style of dwelling                                           ì£¼ê±° ìŠ¤íƒ€ì¼
    
-       1Story   One story                                       1Ãş
+       1Story   One story                                       1ì¸µ
        1.5Fin   One and one-half story: 2nd level finished
        1.5Unf   One and one-half story: 2nd level unfinished
-       2Story   Two story                                       2Ãş
+       2Story   Two story                                       2ì¸µ
        2.5Fin   Two and one-half story: 2nd level finished
        2.5Unf   Two and one-half story: 2nd level unfinished
-       SFoyer   Split Foyer                                     ºĞ¸® Çö°ü
-       SLvl   Split Level                                       ºĞ¸®Ãş (half floor)
+       SFoyer   Split Foyer                                     ë¶„ë¦¬ í˜„ê´€
+       SLvl   Split Level                                       ë¶„ë¦¬ì¸µ (half floor)
    
-OverallQual: Rates the overall material and finish of the house         Áı Àç·á ¹× ¸¶°¨ºñÀ²
+OverallQual: Rates the overall material and finish of the house         ì§‘ ì¬ë£Œ ë° ë§ˆê°ë¹„ìœ¨
 
        10   Very Excellent
        9   Excellent
@@ -162,7 +162,7 @@ OverallQual: Rates the overall material and finish of the house         Áı Àç·á 
        2   Poor
        1   Very Poor
    
-OverallCond: Rates the overall condition of the house                   Áı Àü¹İÀûÀÎ »óÅÂ
+OverallCond: Rates the overall condition of the house                   ì§‘ ì „ë°˜ì ì¸ ìƒíƒœ
 
        10   Very Excellent
        9   Excellent
@@ -175,20 +175,20 @@ OverallCond: Rates the overall condition of the house                   Áı Àü¹İÀ
        2   Poor
        1   Very Poor
       
-YearBuilt: Original construction date                                   ¿ø ÁØ°øÀÏÀÚ
+YearBuilt: Original construction date                                   ì› ì¤€ê³µì¼ì
 
-YearRemodAdd: Remodel date (same as construction date if no remodeling or additions)    ¸®¸ğµ¨¸µ ÀÏÀÚ (¸®¸ğµ¨¸µ, Ãß°¡ ÁØ°øÀÌ ¾ø´Ù¸é ¿ø ÁØ°øÀÏÀÚ¿Í µ¿ÀÏ)
+YearRemodAdd: Remodel date (same as construction date if no remodeling or additions)    ë¦¬ëª¨ë¸ë§ ì¼ì (ë¦¬ëª¨ë¸ë§, ì¶”ê°€ ì¤€ê³µì´ ì—†ë‹¤ë©´ ì› ì¤€ê³µì¼ìì™€ ë™ì¼)
 
-RoofStyle: Type of roof                                                 ÁöºØ Å¸ÀÔ
+RoofStyle: Type of roof                                                 ì§€ë¶• íƒ€ì…
 
-       Flat   Flat              ÆòÁöºØ
-       Gable   Gable            ¹Ú°øÁöºØ
-       Gambrel   Gabrel (Barn)  °·ºê·¼ÁöºØ
-       Hip   Hip                ¸ğÀÓÁöºØ
-       Mansard   Mansard        ¸Á»ç¸£µåÁöºØ
-       Shed   Shed              ¿ÜÂÊÁöºØ
+       Flat   Flat              í‰ì§€ë¶•
+       Gable   Gable            ë°•ê³µì§€ë¶•
+       Gambrel   Gabrel (Barn)  ê°¬ë¸Œë ì§€ë¶•
+       Hip   Hip                ëª¨ì„ì§€ë¶•
+       Mansard   Mansard        ë§ì‚¬ë¥´ë“œì§€ë¶•
+       Shed   Shed              ì™¸ìª½ì§€ë¶•
 
-RoofMatl: Roof material ÁöºØ ÀçÁú, Ä«Å×°í¸®Çü
+RoofMatl: Roof material ì§€ë¶• ì¬ì§ˆ, ì¹´í…Œê³ ë¦¬í˜•
 
        ClyTile   Clay or Tile
        CompShg   Standard (Composite) Shingle
@@ -199,7 +199,7 @@ RoofMatl: Roof material ÁöºØ ÀçÁú, Ä«Å×°í¸®Çü
        WdShake   Wood Shakes
        WdShngl   Wood Shingles
       
-Exterior1st: Exterior covering on house ÁÖ ¿ÜÀåÀç, Ä«Å×°í¸®Çü
+Exterior1st: Exterior covering on house ì£¼ ì™¸ì¥ì¬, ì¹´í…Œê³ ë¦¬í˜•
 
        AsbShng   Asbestos Shingles
        AsphShn   Asphalt Shingles
@@ -219,7 +219,7 @@ Exterior1st: Exterior covering on house ÁÖ ¿ÜÀåÀç, Ä«Å×°í¸®Çü
        Wd Sdng   Wood Siding
        WdShing   Wood Shingles
    
-Exterior2nd: Exterior covering on house (if more than one material) ºÎ ¿ÜÀåÀç, Ä«Å×°í¸®Çü
+Exterior2nd: Exterior covering on house (if more than one material) ë¶€ ì™¸ì¥ì¬, ì¹´í…Œê³ ë¦¬í˜•
 
        AsbShng   Asbestos Shingles
        AsphShn   Asphalt Shingles
@@ -239,7 +239,7 @@ Exterior2nd: Exterior covering on house (if more than one material) ºÎ ¿ÜÀåÀç, Ä
        Wd Sdng   Wood Siding
        WdShing   Wood Shingles
    
-MasVnrType: Masonry veneer type º®µ¹Àå½Ä Å¸ÀÔ, Ä«Å×°í¸®Çü
+MasVnrType: Masonry veneer type ë²½ëŒì¥ì‹ íƒ€ì…, ì¹´í…Œê³ ë¦¬í˜•
 
        BrkCmn   Brick Common
        BrkFace   Brick Face
@@ -247,9 +247,9 @@ MasVnrType: Masonry veneer type º®µ¹Àå½Ä Å¸ÀÔ, Ä«Å×°í¸®Çü
        None   None
        Stone   Stone
    
-MasVnrArea: Masonry veneer area in square feet º®µ¹Àå½Ä ¸éÀû, ¼öÄ¡Çü
+MasVnrArea: Masonry veneer area in square feet ë²½ëŒì¥ì‹ ë©´ì , ìˆ˜ì¹˜í˜•
 
-ExterQual: Evaluates the quality of the material on the exterior ¿ÜÀåÀç Àç·áÀÇ °¡Ä¡ Æò°¡, ¼­¼öÇü
+ExterQual: Evaluates the quality of the material on the exterior ì™¸ì¥ì¬ ì¬ë£Œì˜ ê°€ì¹˜ í‰ê°€, ì„œìˆ˜í˜•
       
        Ex   Excellent
        Gd   Good
@@ -257,7 +257,7 @@ ExterQual: Evaluates the quality of the material on the exterior ¿ÜÀåÀç Àç·áÀÇ °
        Fa   Fair
        Po   Poor
       
-ExterCond: Evaluates the present condition of the material on the exterior ¿ÜÀåÀç »óÅÂ, ¼­¼öÇü
+ExterCond: Evaluates the present condition of the material on the exterior ì™¸ì¥ì¬ ìƒíƒœ, ì„œìˆ˜í˜•
       
        Ex   Excellent
        Gd   Good
@@ -267,7 +267,7 @@ ExterCond: Evaluates the present condition of the material on the exterior ¿ÜÀåÀ
 
 -------------------------------------------------------------------------------------------------
 
-Foundation: Type of foundation Áö¹İÀÇ Å¸ÀÔ, Ä«Å×°í¸®Çü
+Foundation: Type of foundation ì§€ë°˜ì˜ íƒ€ì…, ì¹´í…Œê³ ë¦¬í˜•
       
        BrkTil   Brick & Tile
        CBlock   Cinder Block
@@ -276,7 +276,7 @@ Foundation: Type of foundation Áö¹İÀÇ Å¸ÀÔ, Ä«Å×°í¸®Çü
        Stone   Stone
        Wood   Wood
       
-BsmtQual: Evaluates the height of the basement  ÁöÇÏÃşÀÇ ³ôÀÌ, ¼­¼öÇü
+BsmtQual: Evaluates the height of the basement  ì§€í•˜ì¸µì˜ ë†’ì´, ì„œìˆ˜í˜•
 
        Ex   Excellent (100+ inches)   
        Gd   Good (90-99 inches)
@@ -285,7 +285,7 @@ BsmtQual: Evaluates the height of the basement  ÁöÇÏÃşÀÇ ³ôÀÌ, ¼­¼öÇü
        Po   Poor (<70 inches
        NA   No Basement
       
-BsmtCond: Evaluates the general condition of the basement ÁöÇÏÃşÀÇ »óÅÂ, ¼­¼öÇü
+BsmtCond: Evaluates the general condition of the basement ì§€í•˜ì¸µì˜ ìƒíƒœ, ì„œìˆ˜í˜•
 
        Ex   Excellent
        Gd   Good
@@ -294,7 +294,7 @@ BsmtCond: Evaluates the general condition of the basement ÁöÇÏÃşÀÇ »óÅÂ, ¼­¼öÇü
        Po   Poor - Severe cracking, settling, or wetness
        NA   No Basement
    
-BsmtExposure: Refers to walkout or garden level walls ÁöÇÏÃşÀÇ °³¹æ Á¤µµ??, ¼­¼öÇü
+BsmtExposure: Refers to walkout or garden level walls ì§€í•˜ì¸µì˜ ê°œë°© ì •ë„??, ì„œìˆ˜í˜•
 
        Gd   Good Exposure
        Av   Average Exposure (split levels or foyers typically score average or above)   
@@ -302,7 +302,7 @@ BsmtExposure: Refers to walkout or garden level walls ÁöÇÏÃşÀÇ °³¹æ Á¤µµ??, ¼­¼ö
        No   No Exposure
        NA   No Basement
    
-BsmtFinType1: Rating of basement finished area ÁöÇÏÃşÀÇ È°¿ë°¡´É °ø°£, ¼­¼öÇü
+BsmtFinType1: Rating of basement finished area ì§€í•˜ì¸µì˜ í™œìš©ê°€ëŠ¥ ê³µê°„, ì„œìˆ˜í˜•
 
        GLQ   Good Living Quarters
        ALQ   Average Living Quarters
@@ -312,9 +312,9 @@ BsmtFinType1: Rating of basement finished area ÁöÇÏÃşÀÇ È°¿ë°¡´É °ø°£, ¼­¼öÇü
        Unf   Unfinshed
        NA   No Basement
       
-BsmtFinSF1: Type 1 finished square feet ÁöÇÏÃş È°¿ë°ø°£ÀÇ ³ĞÀÌ, ¼öÄ¡Çü
+BsmtFinSF1: Type 1 finished square feet ì§€í•˜ì¸µ í™œìš©ê³µê°„ì˜ ë„“ì´, ìˆ˜ì¹˜í˜•
 
-BsmtFinType2: Rating of basement finished area (if multiple types) ÁöÇÏÃşÀÇ È°¿ë°¡´É °ø°£2(¿©·¯ °ø°£ÀÌ ÀÖÀ» °æ¿ì), ¼­¼öÇü
+BsmtFinType2: Rating of basement finished area (if multiple types) ì§€í•˜ì¸µì˜ í™œìš©ê°€ëŠ¥ ê³µê°„2(ì—¬ëŸ¬ ê³µê°„ì´ ìˆì„ ê²½ìš°), ì„œìˆ˜í˜•
 
        GLQ   Good Living Quarters
        ALQ   Average Living Quarters
@@ -324,22 +324,22 @@ BsmtFinType2: Rating of basement finished area (if multiple types) ÁöÇÏÃşÀÇ È°¿ë
        Unf   Unfinshed
        NA   No Basement
 
-BsmtFinSF2: Type 2 finished square feet ÁöÇÏÃş È°¿ë°ø°£2ÀÇ ³ĞÀÌ, ¼öÄ¡Çü
+BsmtFinSF2: Type 2 finished square feet ì§€í•˜ì¸µ í™œìš©ê³µê°„2ì˜ ë„“ì´, ìˆ˜ì¹˜í˜•
 
-BsmtUnfSF: Unfinished square feet of basement area ÁöÇÏÃşÀÇ ¸¶°¨µÇÁö ¾ÊÀº ¸éÀû, ¼öÄ¡Çü
+BsmtUnfSF: Unfinished square feet of basement area ì§€í•˜ì¸µì˜ ë§ˆê°ë˜ì§€ ì•Šì€ ë©´ì , ìˆ˜ì¹˜í˜•
 
-TotalBsmtSF: Total square feet of basement area ÁöÇÏÃş ÃÑ¸éÀû, ¼öÄ¡Çü
+TotalBsmtSF: Total square feet of basement area ì§€í•˜ì¸µ ì´ë©´ì , ìˆ˜ì¹˜í˜•
 
-Heating: Type of heating ³­¹æ Å¸ÀÔ, Ä«Å×°í¸®Çü
+Heating: Type of heating ë‚œë°© íƒ€ì…, ì¹´í…Œê³ ë¦¬í˜•
       
-       Floor   Floor Furnace                            ¿Âµ¹
-       GasA   Gas forced warm air furnace               °¡½º½Ä ¿ÂÇ³±â
-       GasW   Gas hot water or steam heat               °¡½º½Ä ¿Â¼ö(½ºÆÀ) ¹æ¿­±â
-       Grav   Gravity furnace                           ¹Ù´ÚÇü ¿ÂÇ³±â
-       OthW   Hot water or steam heat other than gas    ºñ °¡½º½Ä ¿Â¼ö(½ºÆÀ) ¹æ¿­±â
-       Wall   Wall furnace                              º®³­·Î
+       Floor   Floor Furnace                            ì˜¨ëŒ
+       GasA   Gas forced warm air furnace               ê°€ìŠ¤ì‹ ì˜¨í’ê¸°
+       GasW   Gas hot water or steam heat               ê°€ìŠ¤ì‹ ì˜¨ìˆ˜(ìŠ¤íŒ€) ë°©ì—´ê¸°
+       Grav   Gravity furnace                           ë°”ë‹¥í˜• ì˜¨í’ê¸°
+       OthW   Hot water or steam heat other than gas    ë¹„ ê°€ìŠ¤ì‹ ì˜¨ìˆ˜(ìŠ¤íŒ€) ë°©ì—´ê¸°
+       Wall   Wall furnace                              ë²½ë‚œë¡œ
       
-HeatingQC: Heating quality and condition  ³­¹æ Ä÷¸®Æ¼¿Í ÄÁµğ¼Ç, ¼­¼öÇü
+HeatingQC: Heating quality and condition  ë‚œë°© í€„ë¦¬í‹°ì™€ ì»¨ë””ì…˜, ì„œìˆ˜í˜•
 
        Ex   Excellent
        Gd   Good
@@ -347,12 +347,12 @@ HeatingQC: Heating quality and condition  ³­¹æ Ä÷¸®Æ¼¿Í ÄÁµğ¼Ç, ¼­¼öÇü
        Fa   Fair
        Po   Poor
       
-CentralAir: Central air conditioning  Áß¾Ó °øÁ¶ÀåÄ¡, Çü
+CentralAir: Central air conditioning  ì¤‘ì•™ ê³µì¡°ì¥ì¹˜, ì¹´í…Œê³ ë¦¬í˜•
 
        N   No
        Y   Yes
       
-Electrical: Electrical system  Àü±â ½Ã½ºÅÛ, Ä«Å×°í¸®Çü
+Electrical: Electrical system  ì „ê¸° ì‹œìŠ¤í…œ, ì¹´í…Œê³ ë¦¬í˜•
 
        SBrkr   Standard Circuit Breakers & Romex                      
        FuseA   Fuse Box over 60 AMP and all Romex wiring (Average)    
@@ -360,121 +360,121 @@ Electrical: Electrical system  Àü±â ½Ã½ºÅÛ, Ä«Å×°í¸®Çü
        FuseP   60 AMP Fuse Box and mostly knob & tube wiring (poor)
        Mix   Mixed
       
-1stFlrSF: First Floor square feet  1Ãş ¸éÀû, ¼öÄ¡Çü
+1stFlrSF: First Floor square feet  1ì¸µ ë©´ì , ìˆ˜ì¹˜í˜•
  
-2ndFlrSF: Second floor square feet 2Ãş ¸éÀû, ¼öÄ¡Çü
+2ndFlrSF: Second floor square feet 2ì¸µ ë©´ì , ìˆ˜ì¹˜í˜•
 
-LowQualFinSF: Low quality finished square feet (all floors)    ¸¶°¨µÇÁö ¾ÊÀº ¸éÀû(ÀüÃ¼), ¼öÄ¡Çü
+LowQualFinSF: Low quality finished square feet (all floors)    ë§ˆê°ë˜ì§€ ì•Šì€ ë©´ì (ì „ì²´), ìˆ˜ì¹˜í˜•
 
-GrLivArea: Above grade (ground) living area square feet  Áö»ó °ÅÁÖ°ø°£ ¸éÀû, ¼öÄ¡Çü
+GrLivArea: Above grade (ground) living area square feet  ì§€ìƒ ê±°ì£¼ê³µê°„ ë©´ì , ìˆ˜ì¹˜í˜•
 
-BsmtFullBath: Basement full bathrooms  ÁöÇÏÃş (¿åÁ¶¿Ïºñ)È­Àå½Ç ¼ö, ¼öÄ¡Çü
+BsmtFullBath: Basement full bathrooms  ì§€í•˜ì¸µ (ìš•ì¡°ì™„ë¹„)í™”ì¥ì‹¤ ìˆ˜, ìˆ˜ì¹˜í˜•
 
-BsmtHalfBath: Basement half bathrooms   ÁöÇÏÃş (»ş¿ö½Ã¼³ ¾ø´Â)È­Àå½Ç ¼ö, ¼öÄ¡Çü
+BsmtHalfBath: Basement half bathrooms   ì§€í•˜ì¸µ (ìƒ¤ì›Œì‹œì„¤ ì—†ëŠ”)í™”ì¥ì‹¤ ìˆ˜, ìˆ˜ì¹˜í˜•
 
-FullBath: Full bathrooms above grade  Áö»óÃş (¿åÁ¶¿Ïºñ)È­Àå½Ç ¼ö, ¼öÄ¡Çü
+FullBath: Full bathrooms above grade  ì§€ìƒì¸µ (ìš•ì¡°ì™„ë¹„)í™”ì¥ì‹¤ ìˆ˜, ìˆ˜ì¹˜í˜•
 
-HalfBath: Half baths above grade  Áö»óÃş(»ş¿ö½Ã¼³ ¾ø´Â) È­Àå½Ç ¼ö, ¼öÄ¡Çü
+HalfBath: Half baths above grade  ì§€ìƒì¸µ(ìƒ¤ì›Œì‹œì„¤ ì—†ëŠ”) í™”ì¥ì‹¤ ìˆ˜, ìˆ˜ì¹˜í˜•
 
-Bedroom: Bedrooms above grade (does NOT include basement bedrooms) Áö»óÃş Ä§½Ç ¼ö, ¼öÄ¡Çü
+Bedroom: Bedrooms above grade (does NOT include basement bedrooms) ì§€ìƒì¸µ ì¹¨ì‹¤ ìˆ˜, ìˆ˜ì¹˜í˜•
 
-Kitchen: Kitchens above grade  Áö»óÃş ºÎ¾ı ¼ö, ¼öÄ¡Çü
+Kitchen: Kitchens above grade  ì§€ìƒì¸µ ë¶€ì—Œ ìˆ˜, ìˆ˜ì¹˜í˜•
 
-KitchenQual: Kitchen quality ºÎ¾ı »óÅÂ, ¼­¼öÇü
+KitchenQual: Kitchen quality ë¶€ì—Œ ìƒíƒœ, ì„œìˆ˜í˜•
 
-       Ex   Excellent ¾ÆÁÖÁÁÀ½
-       Gd   Good ÁÁÀ½
-       TA   Typical/Average Æò¹ü
-       Fa   Fair ³ª»ÚÁö¾ÊÀ½
-       Po   Poor ³ª»İ
+       Ex   Excellent ì•„ì£¼ì¢‹ìŒ
+       Gd   Good ì¢‹ìŒ
+       TA   Typical/Average í‰ë²”
+       Fa   Fair ë‚˜ì˜ì§€ì•ŠìŒ
+       Po   Poor ë‚˜ì¨
           
-TotRmsAbvGrd: Total rooms above grade (does not include bathrooms), ¼öÄ¡Çü
+TotRmsAbvGrd: Total rooms above grade (does not include bathrooms), ìˆ˜ì¹˜í˜•
 
 ------------------------------------------------------------------------------------------------
 
-Functional: Home functionality (Assume typical unless deductions are warranted) Áı ±â´É(°øÁ¦°¡ º¸ÀåµÇÁö ¾Ê´Â ÇÑ ÀÏ¹İÀûÀÎ °¡Á¤)
+Functional: Home functionality (Assume typical unless deductions are warranted) ì§‘ ê¸°ëŠ¥(ê³µì œê°€ ë³´ì¥ë˜ì§€ ì•ŠëŠ” í•œ ì¼ë°˜ì ì¸ ê°€ì •)
 
-       Typ   Typical Functionality ÀÏ¹İÀû ±â´É
-       Min1   Minor Deductions 1 ¹Ì¼º³âÀÚ °øÁ¦ 1
-       Min2   Minor Deductions 2 ¹Ì¼º³âÀÚ °øÁ¦ 2
-       Mod   Moderate Deductions Æò±Õ °øÁ¦
-       Maj1   Major Deductions 1 ÁÖ¿ä °øÁ¦ 1
-       Maj2   Major Deductions 2 ÁÖ¿ä °øÁ¦ 2
-       Sev   Severely Damaged ½É°¢ÇÏ°Ô ¼Õ»óµÊ
-       Sal   Salvage only ±¸Á¶¸¸
+       Typ   Typical Functionality ì¼ë°˜ì  ê¸°ëŠ¥
+       Min1   Minor Deductions 1 ë¯¸ì„±ë…„ì ê³µì œ 1
+       Min2   Minor Deductions 2 ë¯¸ì„±ë…„ì ê³µì œ 2
+       Mod   Moderate Deductions í‰ê·  ê³µì œ
+       Maj1   Major Deductions 1 ì£¼ìš” ê³µì œ 1
+       Maj2   Major Deductions 2 ì£¼ìš” ê³µì œ 2
+       Sev   Severely Damaged ì‹¬ê°í•˜ê²Œ ì†ìƒë¨
+       Sal   Salvage only êµ¬ì¡°ë§Œ
       
 Fireplaces: Number of fireplaces
 
-FireplaceQu: Fireplace quality º®³­·Î
+FireplaceQu: Fireplace quality ë²½ë‚œë¡œ
 
-       Ex   Excellent - Exceptional Masonry Fireplace ¿ì¼öÇÑ ¼®Á¶ º®³­·Î
-       Gd   Good - Masonry Fireplace in main level ¾çÈ£ÇÑ »óÅÂÀÇ ¼®Á¶ º®³­·Î
+       Ex   Excellent - Exceptional Masonry Fireplace ìš°ìˆ˜í•œ ì„ì¡° ë²½ë‚œë¡œ
+       Gd   Good - Masonry Fireplace in main level ì–‘í˜¸í•œ ìƒíƒœì˜ ì„ì¡° ë²½ë‚œë¡œ
        TA   Average - Prefabricated Fireplace in main living area or Masonry Fireplace in basement
-                      ÁÖ¿ä »ıÈ° ±¸¿ª ³» Á¶¸³½Ä º®³­·Î³ª ÁöÇÏ ¼®Á¶ º®³­·Î
-       Fa   Fair - Prefabricated Fireplace in basement ÁöÇÏ Á¶¸³½Ä º®³­·Î
-       Po   Poor - Ben Franklin Stove º¥ÇÁ·©Å¬¸° ³­·Î(°íÀ¯¸í»ç)
-       NA   No Fireplace º®³­·Î ¾øÀ½
+                      ì£¼ìš” ìƒí™œ êµ¬ì—­ ë‚´ ì¡°ë¦½ì‹ ë²½ë‚œë¡œë‚˜ ì§€í•˜ ì„ì¡° ë²½ë‚œë¡œ
+       Fa   Fair - Prefabricated Fireplace in basement ì§€í•˜ ì¡°ë¦½ì‹ ë²½ë‚œë¡œ
+       Po   Poor - Ben Franklin Stove ë²¤í”„ë­í´ë¦° ë‚œë¡œ(ê³ ìœ ëª…ì‚¬)
+       NA   No Fireplace ë²½ë‚œë¡œ ì—†ìŒ
       
-GarageType: Garage location Â÷°í À§Ä¡
+GarageType: Garage location ì°¨ê³  ìœ„ì¹˜
       
-       2Types   More than one type of garage ÇÏ³ª ÀÌ»óÀÇ Â÷°í º¸À¯
-       Attchd   Attached to home Áı¿¡ ºÙ¾îÀÖ´Â Â÷°í
-       Basment   Basement Garage ÁöÇÏ Â÷°í
-       BuiltIn   Built-In (Garage part of house - typically has room above garage) ºôÆ®ÀÎ ¹æ½Ä - ÀÏ¹İÀûÀ¸·Î Â÷°í À§¿¡ ¹æÀÌ ÀÖÀ½
-       CarPort   Car Port °£ÀÌÂ÷°í
-       Detchd   Detached from home ºĞ¸®Çü Â÷°í
-       NA   No Garage Â÷°í ¾øÀ½
+       2Types   More than one type of garage í•˜ë‚˜ ì´ìƒì˜ ì°¨ê³  ë³´ìœ 
+       Attchd   Attached to home ì§‘ì— ë¶™ì–´ìˆëŠ” ì°¨ê³ 
+       Basment   Basement Garage ì§€í•˜ ì°¨ê³ 
+       BuiltIn   Built-In (Garage part of house - typically has room above garage) ë¹ŒíŠ¸ì¸ ë°©ì‹ - ì¼ë°˜ì ìœ¼ë¡œ ì°¨ê³  ìœ„ì— ë°©ì´ ìˆìŒ
+       CarPort   Car Port ê°„ì´ì°¨ê³ 
+       Detchd   Detached from home ë¶„ë¦¬í˜• ì°¨ê³ 
+       NA   No Garage ì°¨ê³  ì—†ìŒ
       
-GarageYrBlt: Year garage was built Â÷°í °ÇÃà ¿¬µµ
+GarageYrBlt: Year garage was built ì°¨ê³  ê±´ì¶• ì—°ë„
       
-GarageFinish: Interior finish of the garage Â÷°í ÀÎÅ×¸®¾î ¿Ï·á ¿©ºÎ
+GarageFinish: Interior finish of the garage ì°¨ê³  ì¸í…Œë¦¬ì–´ ì™„ë£Œ ì—¬ë¶€
 
-       Fin   Finished ¿Ï·á
-       RFn   Rough Finished ´ëÃæ ¿Ï·á   
-       Unf   Unfinished ¹Ì¿Ï
-       NA   No Garage Â÷°í ¾øÀ½
+       Fin   Finished ì™„ë£Œ
+       RFn   Rough Finished ëŒ€ì¶© ì™„ë£Œ   
+       Unf   Unfinished ë¯¸ì™„
+       NA   No Garage ì°¨ê³  ì—†ìŒ
       
-GarageCars: Size of garage in car capacity Â÷°íÀÇ ¼ö¿ë °¡´É ¿ëÇâ
+GarageCars: Size of garage in car capacity ì°¨ê³ ì˜ ìˆ˜ìš© ê°€ëŠ¥ ìš©í–¥
 
-GarageArea: Size of garage in square feet Â÷°í Æò¼ö
+GarageArea: Size of garage in square feet ì°¨ê³  í‰ìˆ˜
 
-GarageQual: Garage quality Â÷°í Áú
+GarageQual: Garage quality ì°¨ê³  ì§ˆ
 
-       Ex   Excellent ¸Å¿ìÁÁÀ½
-       Gd   Good ÁÁÀ½
-       TA   Typical/Average Æò¹üÇÔ
-       Fa   Fair ³ª»ÚÁö¾ÊÀ½
-       Po   Poor ³ª»İ 
-       NA   No Garage Â÷°í¾øÀ½
+       Ex   Excellent ë§¤ìš°ì¢‹ìŒ
+       Gd   Good ì¢‹ìŒ
+       TA   Typical/Average í‰ë²”í•¨
+       Fa   Fair ë‚˜ì˜ì§€ì•ŠìŒ
+       Po   Poor ë‚˜ì¨ 
+       NA   No Garage ì°¨ê³ ì—†ìŒ
       
-GarageCond: Garage condition Â÷°í »óÅÂ
+GarageCond: Garage condition ì°¨ê³  ìƒíƒœ
 
-       Ex   Excellent¸Å¿ìÁÁÀ½
-       Gd   Good ÁÁÀ½
-       TA   Typical/Average Æò¹üÇÔ
-       Fa   Fair ³ª»ÚÁö¾ÊÀ½
-       Po   Poor ³ª»İ
-       NA   No Garage Â÷°í¾øÀ½
+       Ex   Excellentë§¤ìš°ì¢‹ìŒ
+       Gd   Good ì¢‹ìŒ
+       TA   Typical/Average í‰ë²”í•¨
+       Fa   Fair ë‚˜ì˜ì§€ì•ŠìŒ
+       Po   Poor ë‚˜ì¨
+       NA   No Garage ì°¨ê³ ì—†ìŒ
       
-PavedDrive: Paved driveway ÁøÀÔ·Î Æ÷Àå¿©ºÎ
+PavedDrive: Paved driveway ì§„ì…ë¡œ í¬ì¥ì—¬ë¶€
 
-       Y   Paved Æ÷ÀåµÊ
-       P   Partial Pavement ºÎºĞÆ÷Àå
-       N   Dirt/Gravel ´õ·¯¿ò/ÀÚ°¥±æ
+       Y   Paved í¬ì¥ë¨
+       P   Partial Pavement ë¶€ë¶„í¬ì¥
+       N   Dirt/Gravel ë”ëŸ¬ì›€/ìê°ˆê¸¸
       
-WoodDeckSF: Wood deck area in square feet ³ª¹«µ¥Å© Æò¼ö(Áı ÈÄ¸é¿¡ ¸¶·çÃ³·³ ´Ş¾Æ¼­ ½¯ ¼ö ÀÖ°Ô ¸¸µé¾î µĞ °÷)
+WoodDeckSF: Wood deck area in square feet ë‚˜ë¬´ë°í¬ í‰ìˆ˜(ì§‘ í›„ë©´ì— ë§ˆë£¨ì²˜ëŸ¼ ë‹¬ì•„ì„œ ì‰´ ìˆ˜ ìˆê²Œ ë§Œë“¤ì–´ ë‘” ê³³)
 
-OpenPorchSF: Open porch area in square feet º£¶õ´Ù Æò¼ö
+OpenPorchSF: Open porch area in square feet ë² ë€ë‹¤ í‰ìˆ˜
 
-EnclosedPorch: Enclosed porch area in square feet ³»ºÎ Çö°ü Æò¼ö
+EnclosedPorch: Enclosed porch area in square feet ë‚´ë¶€ í˜„ê´€ í‰ìˆ˜
 
-3SsnPorch: Three season porch area in square feet ¿ÜºÎ Çö°ü Æò¼ö
+3SsnPorch: Three season porch area in square feet ì™¸ë¶€ í˜„ê´€ í‰ìˆ˜
 
-ScreenPorch: Screen porch area in square feet À¯¸® Çö°ü Æò¼ö
+ScreenPorch: Screen porch area in square feet ìœ ë¦¬ í˜„ê´€ í‰ìˆ˜
 
-PoolArea: Pool area in square feet ¼ö¿µÀå Æò¼ö
+PoolArea: Pool area in square feet ìˆ˜ì˜ì¥ í‰ìˆ˜
 
-PoolQC: Pool quality ¼ö¿µÀå »óÅÂ
+PoolQC: Pool quality ìˆ˜ì˜ì¥ ìƒíƒœ
       
        Ex   Excellent
        Gd   Good
@@ -482,7 +482,7 @@ PoolQC: Pool quality ¼ö¿µÀå »óÅÂ
        Fa   Fair
        NA   No Pool
       
-Fence: Fence quality ¿ïÅ¸¸® »óÅÂ
+Fence: Fence quality ìš¸íƒ€ë¦¬ ìƒíƒœ
       
        GdPrv   Good Privacy
        MnPrv   Minimum Privacy
@@ -490,7 +490,7 @@ Fence: Fence quality ¿ïÅ¸¸® »óÅÂ
        MnWw   Minimum Wood/Wire
        NA   No Fence
    
-MiscFeature: Miscellaneous feature not covered in other categories ´Ù¸¥ Ä«Å×°í¸®¿¡¼­ ´Ù·çÁö ¾Ê´Â ±âÅ¸ ±â´É
+MiscFeature: Miscellaneous feature not covered in other categories ë‹¤ë¥¸ ì¹´í…Œê³ ë¦¬ì—ì„œ ë‹¤ë£¨ì§€ ì•ŠëŠ” ê¸°íƒ€ ê¸°ëŠ¥
       
        Elev   Elevator
        Gar2   2nd Garage (if not described in garage section)
@@ -499,13 +499,13 @@ MiscFeature: Miscellaneous feature not covered in other categories ´Ù¸¥ Ä«Å×°í¸®
        TenC   Tennis Court
        NA   None
       
-MiscVal: $Value of miscellaneous feature ±âÅ¸ Æ¯¼ºÀÇ °¡Ä¡
+MiscVal: $Value of miscellaneous feature ê¸°íƒ€ íŠ¹ì„±ì˜ ê°€ì¹˜
 
-MoSold: Month Sold (MM) ¿ù°£ ÆÇ¸Å·®
+MoSold: Month Sold (MM) ì›”ê°„ íŒë§¤ëŸ‰
 
-YrSold: Year Sold (YYYY) ¿¬°£ ÆÇ¸Å·®
+YrSold: Year Sold (YYYY) ì—°ê°„ íŒë§¤ëŸ‰
 
-SaleType: Type of sale ÆÇ¸ÅÅ¸ÀÔ
+SaleType: Type of sale íŒë§¤íƒ€ì…
       
        WD    Warranty Deed - Conventional
        CWD   Warranty Deed - Cash
@@ -518,7 +518,7 @@ SaleType: Type of sale ÆÇ¸ÅÅ¸ÀÔ
        ConLD   Contract Low Down
        Oth   Other
       
-SaleCondition: Condition of sale ÆÇ¸Å 
+SaleCondition: Condition of sale íŒë§¤ 
 
        Normal   Normal Sale
        Abnorml   Abnormal Sale -  trade, foreclosure, short sale
