@@ -28,7 +28,7 @@ MSZoning: Identifies the general zoning classification of the sale.     판매 �
        RP   Residential Low Density Park
        RM   Residential Medium Density          중밀도 주택
    
-LotFrontage: Linear feet of street connected to property                거리 선형 피트
+LotFrontage: Linear feet of street connected to property                집까지 연결된 거리(street)의 발자국 거리
 
 LotArea: Lot size in square feet                                        평방 피트
 
@@ -37,7 +37,7 @@ Street: Type of road access to property                                 도로 �
        Grvl   Gravel            비포장
        Pave   Paved             포장
           
-Alley: Type of alley access to property                                 골목 접근성
+Alley: Type of alley access to property                                 골목길 접근성
 
        Grvl   Gravel            비포장
        Pave   Paved             포장
