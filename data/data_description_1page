@@ -187,3 +187,193 @@ RoofStyle: Type of roof                                                 지붕 �
        Hip   Hip                모임지붕
        Mansard   Mansard        망사르드지붕
        Shed   Shed              외쪽지붕
+
+RoofMatl: Roof material 지붕 재질, 카테고리형
+
+       ClyTile   Clay or Tile
+       CompShg   Standard (Composite) Shingle
+       Membran   Membrane
+       Metal   Metal
+       Roll   Roll
+       Tar&Grv   Gravel & Tar
+       WdShake   Wood Shakes
+       WdShngl   Wood Shingles
+      
+Exterior1st: Exterior covering on house 주 외장재, 카테고리형
+
+       AsbShng   Asbestos Shingles
+       AsphShn   Asphalt Shingles
+       BrkComm   Brick Common
+       BrkFace   Brick Face
+       CBlock   Cinder Block
+       CemntBd   Cement Board
+       HdBoard   Hard Board
+       ImStucc   Imitation Stucco
+       MetalSd   Metal Siding
+       Other   Other
+       Plywood   Plywood
+       PreCast   PreCast   
+       Stone   Stone
+       Stucco   Stucco
+       VinylSd   Vinyl Siding
+       Wd Sdng   Wood Siding
+       WdShing   Wood Shingles
+   
+Exterior2nd: Exterior covering on house (if more than one material) 부 외장재, 카테고리형
+
+       AsbShng   Asbestos Shingles
+       AsphShn   Asphalt Shingles
+       BrkComm   Brick Common
+       BrkFace   Brick Face
+       CBlock   Cinder Block
+       CemntBd   Cement Board
+       HdBoard   Hard Board
+       ImStucc   Imitation Stucco
+       MetalSd   Metal Siding
+       Other   Other
+       Plywood   Plywood
+       PreCast   PreCast
+       Stone   Stone
+       Stucco   Stucco
+       VinylSd   Vinyl Siding
+       Wd Sdng   Wood Siding
+       WdShing   Wood Shingles
+   
+MasVnrType: Masonry veneer type 벽돌장식 타입, 카테고리형
+
+       BrkCmn   Brick Common
+       BrkFace   Brick Face
+       CBlock   Cinder Block
+       None   None
+       Stone   Stone
+   
+MasVnrArea: Masonry veneer area in square feet 벽돌장식 면적, 수치형
+
+ExterQual: Evaluates the quality of the material on the exterior 외장재 재료의 가치 평가, 서수형
+      
+       Ex   Excellent
+       Gd   Good
+       TA   Average/Typical
+       Fa   Fair
+       Po   Poor
+      
+ExterCond: Evaluates the present condition of the material on the exterior 외장재 상태, 서수형
+      
+       Ex   Excellent
+       Gd   Good
+       TA   Average/Typical
+       Fa   Fair
+       Po   Poor
+      
+Foundation: Type of foundation 지반의 타입, 카테고리형
+      
+       BrkTil   Brick & Tile
+       CBlock   Cinder Block
+       PConc   Poured Contrete   
+       Slab   Slab
+       Stone   Stone
+       Wood   Wood
+      
+BsmtQual: Evaluates the height of the basement  지하층의 높이, 서수형
+
+       Ex   Excellent (100+ inches)   
+       Gd   Good (90-99 inches)
+       TA   Typical (80-89 inches)
+       Fa   Fair (70-79 inches)
+       Po   Poor (<70 inches
+       NA   No Basement
+      
+BsmtCond: Evaluates the general condition of the basement 지하층의 상태, 서수형
+
+       Ex   Excellent
+       Gd   Good
+       TA   Typical - slight dampness allowed
+       Fa   Fair - dampness or some cracking or settling
+       Po   Poor - Severe cracking, settling, or wetness
+       NA   No Basement
+   
+BsmtExposure: Refers to walkout or garden level walls 지하층의 개방 정도??, 서수형
+
+       Gd   Good Exposure
+       Av   Average Exposure (split levels or foyers typically score average or above)   
+       Mn   Mimimum Exposure
+       No   No Exposure
+       NA   No Basement
+   
+BsmtFinType1: Rating of basement finished area 지하층의 활용가능 공간, 서수형
+
+       GLQ   Good Living Quarters
+       ALQ   Average Living Quarters
+       BLQ   Below Average Living Quarters   
+       Rec   Average Rec Room
+       LwQ   Low Quality
+       Unf   Unfinshed
+       NA   No Basement
+      
+BsmtFinSF1: Type 1 finished square feet 지하층 활용공간의 넓이, 수치형
+
+BsmtFinType2: Rating of basement finished area (if multiple types) 지하층의 활용가능 공간2(여러 공간이 있을 경우), 서수형
+
+       GLQ   Good Living Quarters
+       ALQ   Average Living Quarters
+       BLQ   Below Average Living Quarters   
+       Rec   Average Rec Room
+       LwQ   Low Quality
+       Unf   Unfinshed
+       NA   No Basement
+
+BsmtFinSF2: Type 2 finished square feet 지하층 활용공간2의 넓이, 수치형
+
+BsmtUnfSF: Unfinished square feet of basement area 지하층의 마감되지 않은 면적, 수치형
+
+TotalBsmtSF: Total square feet of basement area 지하층 총면적, 수치형
+
+Heating: Type of heating 난방 타입, 카테고리형
+      
+       Floor   Floor Furnace                            온돌
+       GasA   Gas forced warm air furnace               가스식 온풍기
+       GasW   Gas hot water or steam heat               가스식 온수(스팀) 방열기
+       Grav   Gravity furnace                           바닥형 온풍기
+       OthW   Hot water or steam heat other than gas    비 가스식 온수(스팀) 방열기
+       Wall   Wall furnace                              벽난로
+      
+HeatingQC: Heating quality and condition  난방 퀄리티와 컨디션, 서수형
+
+       Ex   Excellent
+       Gd   Good
+       TA   Average/Typical
+       Fa   Fair
+       Po   Poor
+      
+CentralAir: Central air conditioning  중앙 공조장치, 형
+
+       N   No
+       Y   Yes
+      
+Electrical: Electrical system  전기 시스템, 카테고리형
+
+       SBrkr   Standard Circuit Breakers & Romex                      
+       FuseA   Fuse Box over 60 AMP and all Romex wiring (Average)    
+       FuseF   60 AMP Fuse Box and mostly Romex wiring (Fair)
+       FuseP   60 AMP Fuse Box and mostly knob & tube wiring (poor)
+       Mix   Mixed
+      
+1stFlrSF: First Floor square feet  1층 면적, 수치형
+ 
+2ndFlrSF: Second floor square feet 2층 면적, 수치형
+
+LowQualFinSF: Low quality finished square feet (all floors)    마감되지 않은 면적(전체), 수치형
+
+GrLivArea: Above grade (ground) living area square feet  지상 거주공간 면적, 수치형
+
+BsmtFullBath: Basement full bathrooms  지하층 (욕조완비)화장실 수, 수치형
+
+BsmtHalfBath: Basement half bathrooms   지하층 (샤워시설 없는)화장실 수, 수치형
+
+FullBath: Full bathrooms above grade  지상층 (욕조완비)화장실 수, 수치형
+
+HalfBath: Half baths above grade  지상층(샤워시설 없는) 화장실 수, 수치형
+
+Bedroom: Bedrooms above grade (does NOT include basement bedrooms) 지상층 침실 수, 수치형
+
+Kitchen: Kitchens above grade  지상층 부엌 수, 수치형
